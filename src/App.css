@@ -113,6 +113,53 @@ a:active { text-decoration: none; }
   font-size: 1rem;
 }
 
+.return-button{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: #ececec;
+}
+
+.huffmanapp {
+  text-align: center;
+  background-color: #292929;
+  min-height: 130vh;
+  min-width: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.pagetitle {
+  color: #ececec;
+  padding: 50px;
+  font-family: "OrangeDays", sans-serif;
+  font-size: 6rem;
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.overview{
+  height: 60px;
+  max-width: 1050px;
+  color: #ececec;
+  text-align: left;
+  margin: auto;
+}
+
+.description {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight:normal;
+}
+
+.vidsetting{
+  height: 600px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
