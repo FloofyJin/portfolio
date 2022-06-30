@@ -1,0 +1,20 @@
+{
+  "main.css": "/portfolio/static/css/main.fefeb23e.chunk.css",
+  "main.js": "/portfolio/static/js/main.fe0fa602.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.fe0fa602.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.fc44a23e.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.fc44a23e.js.map",
+  "static/js/2.3dff128f.chunk.js": "/portfolio/static/js/2.3dff128f.chunk.js",
+  "static/js/2.3dff128f.chunk.js.map": "/portfolio/static/js/2.3dff128f.chunk.js.map",
+  "static/js/3.71a42320.chunk.js": "/portfolio/static/js/3.71a42320.chunk.js",
+  "static/js/3.71a42320.chunk.js.map": "/portfolio/static/js/3.71a42320.chunk.js.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.e2b6c555207aaf27362d67789cd3586f.js": "/portfolio/precache-manifest.e2b6c555207aaf27362d67789cd3586f.js",
+  "service-worker.js": "/portfolio/service-worker.js",
+  "static/css/main.fefeb23e.chunk.css.map": "/portfolio/static/css/main.fefeb23e.chunk.css.map",
+  "static/media/App.css": "/portfolio/static/media/Orange Days.ef1fb2c0.ttf",
+  "static/media/discord_icon.png": "/portfolio/static/media/discord_icon.6fafae42.png",
+  "static/media/httpserver_icon.png": "/portfolio/static/media/httpserver_icon.00f1b4af.png",
+  "static/media/huffmandemo.mp4": "/portfolio/static/media/huffmandemo.c3f30a69.mp4",
+  "static/media/huffmantree.png": "/portfolio/static/media/huffmantree.1af203e2.png"
+}
