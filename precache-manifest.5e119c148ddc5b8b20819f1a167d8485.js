@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "12d3310e710e82bc23c2",
+    "revision": "50d93fd18d236cf5599b",
     "url": "./static/css/main.95f28381.chunk.css"
   },
   {
-    "revision": "12d3310e710e82bc23c2",
-    "url": "./static/js/main.14bcaa17.chunk.js"
+    "revision": "50d93fd18d236cf5599b",
+    "url": "./static/js/main.2f83f76d.chunk.js"
   },
   {
     "revision": "99da2e9b01e1d7637466",
     "url": "./static/js/runtime~main.0b0660b7.js"
   },
   {
-    "revision": "c5d2e8346e24763a05ef",
-    "url": "./static/js/2.6464395f.chunk.js"
+    "revision": "144583dd919f2048869b",
+    "url": "./static/js/2.10e140e3.chunk.js"
   },
   {
     "revision": "77ff2abf6da91ad83241",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "./static/media/huffmantree.1af203e2.png"
   },
   {
-    "revision": "1aec589fd6da61cb986e785cae4e1a2f",
+    "revision": "8fcf49699254be77e225bbaff9fb0f88",
     "url": "./index.html"
   }
 ];
