@@ -1,5 +1,5 @@
 {
-  "homepage": "http://FloofyJin.github.io/portfolio",
+  "homepage": "https://FloofyJin.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -45,6 +45,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "@types/react-helmet": "^6.1.5",
+    "gh-pages": "^4.0.0",
+    "react-helmet": "^6.1.0"
   }
 }
