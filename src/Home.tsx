@@ -49,7 +49,7 @@ function Home() {
                         </NavLink>
                     </div>
                     <div className="item">
-                        <NavLink className="image-link glow" to="/huffman">
+                        <NavLink className="image-link glow" to="/httpserver">
                             <img className="item-icon" alt="Qries" src={httpserver_icon} />
                             <h1 className="item-text">
                                 HTTP Server

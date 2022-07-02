@@ -47,6 +47,7 @@
   "devDependencies": {
     "@types/react-helmet": "^6.1.5",
     "gh-pages": "^4.0.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "sass": "^1.53.0"
   }
 }
