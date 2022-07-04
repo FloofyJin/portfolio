@@ -13,28 +13,29 @@ function Httpserver() {
                     <h1>Back</h1>
             </NavLink>
         </div>
-            <div className="huffmanapp">
+            <div className="httpserverapp">
                 <h1 className="pagetitle">HTTP Server</h1>
                 <video className="vidsetting" src={httpservervid} loop autoPlay muted></video>
                 <div className="overview">
                     <h1>Goal</h1>
                     <h1 className="description">
-                    This program was initially written for my school project. The entire point
-                    of this assignment was to demonstrate the properties of reducing file size through optimal binary data 
-                    encoded based on the frequency of symbols in the file. This method was originally developed by an MIT student 
-                    David A. Huffman in 1952 and has beat a dissimliar top-down approach of Shannon-Fano coding.
+                    My goal for this program was to design a write a multi-threaded server to transfer files via HTTP connection. Using 
+                    curl or simply sending a "GET", "PUT", "APPEND" through netcat command is suitable for communicating with the server.
                     </h1>
-                    <h1>Encoder</h1>
+                    <h1>Insight</h1>
                     <h1 className="description">
-                    The encoder first takes the frequency of each character in the file, then creates a histogram of the counted values.
-                    Using a priority queue, construct huffman tree for each symbol. After all is done, step through each symbol of the input
-                    file again, and emit the code value for each character.
+                    This program was written completely in C with the help of priority queue to maintain the flow of requests and an 
+                    epoll to handle transmission of data that aren't instant. The server works by having a loop that checks for an incoming 
+                    request through a conditional mux. The connection then reads from the file descriptor until the Operation, uri, and header 
+                    have been received.
                     </h1>
-                    <h1>Decoder</h1>
+                    <h1>Future</h1>
                     <h1 className="description">
-                    The decoder will read the header off the of the encoded file to verify that it is the correct format and creates a dump
-                    tree based on the huffman tree. Program will iterate over the tree to match each bit in the encoded file with the given
-                    character.
+                    Although the current version of the server only handles three commands notably "GET", "PUT", and "APPEND", I plan to 
+                    implement "POST" next so that eventually this server can host a variety of functions needed to maintain a system. As 
+                    such, the next step would be implement an sql databas where I can organize the collection of files instead of having 
+                    them scattered across the root folder. One nice touch would be to implement a simple gui to upload files without needing 
+                    to use the terminal.
                     </h1>
                 </div>
             </div>

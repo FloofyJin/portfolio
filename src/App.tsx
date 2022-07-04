@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet';
 import Home from './Home';
 import Huffman from './Huffman';
 import Httpserver from './Httpserver';
+import Webscrawler from './Webscraper';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/huffman' element={<Huffman />} />
         <Route path='/httpserver' element={<Httpserver />} />
+        <Route path='/webcrawler' element={<Webscrawler />} />
       </Routes>
     </Router>
   );

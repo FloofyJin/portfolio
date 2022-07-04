@@ -124,10 +124,28 @@ a:active { text-decoration: none; }
   color: #ececec;
 }
 
+.webcrawlerapp {
+  text-align: center;
+  background-color: #292929;
+  min-height: 1250px;
+  min-width: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 .huffmanapp {
   text-align: center;
   background-color: #292929;
   min-height: 1700px;
+  min-width: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.httpserverapp {
+  text-align: center;
+  background-color: #292929;
+  min-height: 1400px;
   min-width: 100vh;
   margin: 0;
   padding: 0;
