@@ -17,6 +17,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Jinsung Park - Portfolio</title>
+        <meta name="description" content="This is the index page description"/> 
       </Helmet>
       <Routes>
         <Route path='/' element={<Home />} />
