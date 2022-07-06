@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { NavLink } from "react-router-dom";
-import { Helmet } from 'react-helmet';
 
 import github_icon from './icons/github_icon.png';
 import linkedin_icon from './icons/linkedin_icon.png';
@@ -20,11 +19,6 @@ function Home() {
 
     return (
         <div>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Jinsung Park - Portfolio</title>
-                <meta name="description" content="This is the index page description"/> 
-            </Helmet>
             <div className="header">
                 <div className="resume">
                     <a href="https://drive.google.com/file/d/1zFHgvD4BC6QsokVzbYLdp9UVxq-5r9ff/view?usp=sharing" target="_blank" rel="noopener noreferrer">
