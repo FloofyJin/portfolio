@@ -20,9 +20,9 @@ function Webscraper() {
                     <h1>Goal</h1>
                     <h1 className="description">
                     Initially, this project was created for the sole purpose to solving mobile trivia questions for prize money. In 2019, 
-                    the internet became massively obsessed with trivia games such as HQ trivia and Cash show. I repurposed a web scraper 
-                    used to collect search queries from google to an optical character recognition tool and fitted it with a counter to 
-                    select the correct answer given a question with 3 choices.
+                    the internet became massively obsessed with trivia games such as HQ trivia and Cash show. So tried my hand at the sensation 
+                    I repurposing a web scraper used to collect search queries from google with an optical character recognition tool, fitting 
+                    it with a counter to select the correct answer given a question with 3 choices.
                     </h1>
                     <h1>Insight</h1>
                     <h1 className="description">
