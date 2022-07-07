@@ -14,15 +14,10 @@ function App() {
 
   return (
     <Router>
-      {/* <head>
-        <meta property="og:title" content="*TITLE*" />
-        <meta property="og:description" content="*DESCRIPTION*" />
-      </head>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Jinsung Park - Portfolio</title>
-        <meta name="description" content="This is the index page description"/> 
-      </Helmet> */}
+      </Helmet> 
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/huffman' element={<Huffman />} />
