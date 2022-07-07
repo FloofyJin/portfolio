@@ -20,8 +20,7 @@ function Huffman() {
                 <div className="overview">
                     <h1>Goal</h1>
                     <h1 className="description">
-                    This program was initially written for my school project. The entire point
-                    of this assignment was to demonstrate the properties of reducing file size through optimal binary data 
+                    The entire point of this project was to demonstrate the properties of reducing file size through optimal binary data 
                     encoded based on the frequency of symbols in the file. This method was originally developed by an MIT student 
                     David A. Huffman in 1952 and has beat a dissimliar top-down approach of Shannon-Fano coding.
                     </h1>
