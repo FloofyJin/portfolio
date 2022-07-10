@@ -18,10 +18,10 @@ import webscraper_icon from './icons/webcrawler_icon.png';
 function Home() {
 
     return (
-        <div>
+        <div className="overall">
             <div className="header">
                 <div className="resume">
-                    <a href="https://drive.google.com/file/d/1gvXY_CJMbpgA9JERg8ay5OCDROjPPWCP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1UE5SLm-KWNQacyAyiqXdah_jc6FLOgIf/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img className="logo-icon" alt="Qries" src={resume_icon} />
                     </a>
                 </div>

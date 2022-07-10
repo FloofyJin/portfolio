@@ -11,6 +11,10 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
+.overall {
+  background-color: #292929;
+}
+
 .header {
   min-height: 7vh;
   min-width: 100vh;
