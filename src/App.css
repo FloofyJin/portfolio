@@ -18,7 +18,7 @@ a:active { text-decoration: none; }
 
 .header {
   min-height: 7vh;
-  min-width: 100vh;
+  min-width: 1140px;
   background-color: #292929;
 }
 
