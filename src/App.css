@@ -18,7 +18,7 @@ a:active { text-decoration: none; }
 
 .header {
   min-height: 7vh;
-  min-width: 1140px;
+  min-width: 1540px;
   background-color: #292929;
 }
 
@@ -107,7 +107,7 @@ a:active { text-decoration: none; }
 .footer{
   background-color: #292929;
   height: 4rem;
-  min-width: 100vh;
+  min-width: 1540px;;
   margin: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -133,7 +133,7 @@ a:active { text-decoration: none; }
 .webcrawlerapp {
   text-align: center;
   background-color: #292929;
-  min-height: 1275px;
+  min-height: 1175px;
   min-width: 100vh;
   margin: 0;
   padding: 0;
@@ -143,8 +143,8 @@ a:active { text-decoration: none; }
 .huffmanapp {
   text-align: center;
   background-color: #292929;
-  min-height: 1675px;
-  min-width: 100vh;
+  min-height: 1575px;
+  min-width: 1540px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -153,7 +153,7 @@ a:active { text-decoration: none; }
 .httpserverapp {
   text-align: center;
   background-color: #292929;
-  min-height: 1425px;
+  min-height: 1325px;
   min-width: 100vh;
   margin: 0;
   padding: 0;
@@ -163,11 +163,12 @@ a:active { text-decoration: none; }
 .archsetupapp {
   text-align: center;
   background-color: #292929;
-  min-height: 1650px;
-  min-width: 100vh;
+  min-height: 1600px;
+  min-width: 1540px;
   margin: 0;
   padding: 0;
   position: relative;
+  justify-content: center;
 }
 
 .pagetitle {
@@ -194,14 +195,18 @@ a:active { text-decoration: none; }
 }
 
 .vidsetting{
-  height: 600px;
+  /* height: 600px; */
+  width: 1050px;
 }
 
 .repolink{
-  position:absolute;
-  /* float: bottom; */
-  bottom:30px;
-  justify-content: center;
+  min-width: 1540px;
+  background-color:#292929;
+  justify-content: center; 
+  position: relative;
+  display:flex;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -40,7 +40,9 @@ function Huffman() {
                     character.
                     </h1>
                 </div>
-                <a className="repolink" href="https://github.com/FloofyJin/Huffman-Encoder" target="_blank" rel="noopener noreferrer">
+            </div>
+            <div className="repolink">
+                <a href="https://github.com/FloofyJin/Huffman-Encoder" target="_blank" rel="noopener noreferrer">
                     <img className="logo-icon" alt="Qries" src={github_icon} />
                 </a>
             </div>

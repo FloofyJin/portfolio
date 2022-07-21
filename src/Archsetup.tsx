@@ -28,10 +28,14 @@ function Archsetup() {
                     Space theme to match the aesthetic. Flat Earth?!?! &#x1F927;&#x1F927;&#x1F927;
                     </h1><br/>
                 </div>
-                <a className="repolink" href="https://github.com/FloofyJin/dot-files" target="_blank" rel="noopener noreferrer">
+                
+            </div>
+            <div className="repolink">
+                <a href="https://github.com/FloofyJin/dot-files" target="_blank" rel="noopener noreferrer">
                     <img className="logo-icon" alt="Qries" src={github_icon} />
                 </a>
             </div>
+            
 
             <div className="footer">
                 <h1 className="license">© Jinsung Park, MIT Licensed</h1>

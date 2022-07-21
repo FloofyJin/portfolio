@@ -40,10 +40,14 @@ function Httpserver() {
                     to use the terminal.
                     </h1>
                 </div>
-                <a className="repolink" href="https://github.com/FloofyJin/Http-Server" target="_blank" rel="noopener noreferrer">
-                        <img className="logo-icon" alt="Qries" src={github_icon} />
-                    </a>
             </div>
+
+            <div className="repolink">
+                <a href="https://github.com/FloofyJin/Http-Server" target="_blank" rel="noopener noreferrer">
+                    <img className="logo-icon" alt="Qries" src={github_icon} />
+                </a>
+            </div>
+
 
             <div className="footer">
                 <h1 className="license">© Jinsung Park, MIT Licensed</h1>

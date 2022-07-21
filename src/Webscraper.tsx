@@ -33,7 +33,10 @@ function Webscraper() {
                     queries the net for the question with the given answer choice. The query with the most result is identified as the answer.
                     </h1>
                 </div>
-                <a className="repolink" href="https://github.com/FloofyJin/Tesseract" target="_blank" rel="noopener noreferrer">
+            </div>
+
+            <div className="repolink">
+                <a href="https://github.com/FloofyJin/Tesseract" target="_blank" rel="noopener noreferrer">
                     <img className="logo-icon" alt="Qries" src={github_icon} />
                 </a>
             </div>
