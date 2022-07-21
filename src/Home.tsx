@@ -10,6 +10,7 @@ import resume_icon from './icons/resume_icon.png';
 import huffman_icon from './icons/huffman_icon.png';
 import httpserver_icon from './icons/httpserver_icon.png';
 import webscraper_icon from './icons/webcrawler_icon.png';
+import archlinux_icon from './icons/archlinux_icon.png';
 //blender
 
 //git push
@@ -65,6 +66,14 @@ function Home() {
                             <img className="item-icon" alt="Qries" src={httpserver_icon} />
                             <h1 className="item-text">
                                 HTTP Server
+                            </h1>
+                        </NavLink>
+                    </div>
+                    <div className="item">
+                        <NavLink className="image-link glow" to="/httpserver">
+                            <img className="item-icon" alt="Qries" src={archlinux_icon} />
+                            <h1 className="item-text">
+                                Linux setup
                             </h1>
                         </NavLink>
                     </div>
