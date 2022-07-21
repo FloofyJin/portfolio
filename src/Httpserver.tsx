@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import { NavLink } from "react-router-dom";
 
+import github_icon from './icons/github_icon.png';
+
 import httpservervid from './media/httpserverdemo.mp4';
 
 function Httpserver() {
@@ -12,11 +14,11 @@ function Httpserver() {
             <NavLink className="return-button glow" to="/">
                     <h1>Back</h1>
             </NavLink>
-        </div>
+            </div>
             <div className="httpserverapp">
                 <h1 className="pagetitle">HTTP Server</h1>
-                <video className="vidsetting" src={httpservervid} loop autoPlay muted></video>
                 <div className="overview">
+                    <video className="vidsetting" src={httpservervid} loop autoPlay muted></video>
                     <h1>Goal</h1>
                     <h1 className="description">
                     My goal for this program was to design a write a multi-threaded server to transfer files via HTTP connection. Using 
@@ -38,6 +40,9 @@ function Httpserver() {
                     to use the terminal.
                     </h1>
                 </div>
+                <a className="repolink" href="https://github.com/FloofyJin/Http-Server" target="_blank" rel="noopener noreferrer">
+                        <img className="logo-icon" alt="Qries" src={github_icon} />
+                    </a>
             </div>
 
             <div className="footer">

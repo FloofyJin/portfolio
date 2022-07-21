@@ -133,28 +133,41 @@ a:active { text-decoration: none; }
 .webcrawlerapp {
   text-align: center;
   background-color: #292929;
-  min-height: 1250px;
+  min-height: 1275px;
   min-width: 100vh;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .huffmanapp {
   text-align: center;
   background-color: #292929;
-  min-height: 1700px;
+  min-height: 1675px;
   min-width: 100vh;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .httpserverapp {
   text-align: center;
   background-color: #292929;
-  min-height: 1400px;
+  min-height: 1425px;
   min-width: 100vh;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.archsetupapp {
+  text-align: center;
+  background-color: #292929;
+  min-height: 1650px;
+  min-width: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .pagetitle {
@@ -182,6 +195,13 @@ a:active { text-decoration: none; }
 
 .vidsetting{
   height: 600px;
+}
+
+.repolink{
+  position:absolute;
+  /* float: bottom; */
+  bottom:30px;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

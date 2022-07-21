@@ -54,10 +54,10 @@ function Home() {
                         </NavLink>
                     </div>
                     <div className="item">
-                        <NavLink className="image-link glow" to="/huffman">
+                        <NavLink className="image-link glow" to="/cryptography">
                             <img className="item-icon" alt="Qries" src={huffman_icon} />
                             <h1 className="item-text">
-                                Encoder
+                                Cryptography
                             </h1>
                         </NavLink>
                     </div>
@@ -70,10 +70,10 @@ function Home() {
                         </NavLink>
                     </div>
                     <div className="item">
-                        <NavLink className="image-link glow" to="/httpserver">
+                        <NavLink className="image-link glow" to="/archsetup">
                             <img className="item-icon" alt="Qries" src={archlinux_icon} />
                             <h1 className="item-text">
-                                Linux setup
+                                Arch setup
                             </h1>
                         </NavLink>
                     </div>

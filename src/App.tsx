@@ -6,9 +6,10 @@ import { HashRouter as Router, Routes, Route}
 import { Helmet } from 'react-helmet';
 
 import Home from './Home';
-import Huffman from './Huffman';
+import Cryptography from './Huffman';
 import Httpserver from './Httpserver';
 import Webscrawler from './Webscraper';
+import Archsetup from './Archsetup';
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
       </Helmet> 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/huffman' element={<Huffman />} />
+        <Route path='/cryptography' element={<Cryptography />} />
         <Route path='/httpserver' element={<Httpserver />} />
         <Route path='/webcrawler' element={<Webscrawler />} />
+        <Route path='/archsetup' element={<Archsetup />} />
       </Routes>
     </Router>
   );

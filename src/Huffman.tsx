@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import { NavLink } from "react-router-dom";
 
+import github_icon from './icons/github_icon.png';
+
 import huffmanvid from './media/huffmandemo.mp4';
 import huffmantree from './media/huffmantree.png';
 
@@ -15,7 +17,7 @@ function Huffman() {
             </NavLink>
         </div>
             <div className="huffmanapp">
-                <h1 className="pagetitle">Encoder</h1>
+                <h1 className="pagetitle">RSA Cryptography</h1>
                 <video className="vidsetting" src={huffmanvid} loop autoPlay muted></video>
                 <div className="overview">
                     <h1>Goal</h1>
@@ -38,6 +40,9 @@ function Huffman() {
                     character.
                     </h1>
                 </div>
+                <a className="repolink" href="https://github.com/FloofyJin/Huffman-Encoder" target="_blank" rel="noopener noreferrer">
+                    <img className="logo-icon" alt="Qries" src={github_icon} />
+                </a>
             </div>
 
             <div className="footer">
