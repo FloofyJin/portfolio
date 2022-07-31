@@ -33,7 +33,7 @@ function Home() {
                     <a href="https://www.youtube.com/channel/UC8WyNw0cWU4nAXSuQMtNZug" target="_blank" rel="noopener noreferrer">
                         <img className="logo-icon" alt="Qries" src={youtube_icon} />
                     </a>
-                    <a href="www.linkedin.com/in/floofyjin" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/floofyjin/" target="_blank" rel="noopener noreferrer">
                         <img className="logo-icon" alt="Qries" src={linkedin_icon} />
                     </a>
                     <a href="https://discord.com/users/449983218788204569" target="_blank" rel="noopener noreferrer">
