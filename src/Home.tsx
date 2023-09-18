@@ -22,7 +22,7 @@ function Home() {
         <div className="overall">
             <div className="header">
                 <div className="resume">
-                    <a href="https://drive.google.com/file/d/1MzeVb5w8m3Gsp_EIhdsglQF8lHW1BFnH/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://docs.google.com/document/d/1PAjDY7_3d-dmza5iRUznBn3T4Ll-kIbPcOfSMAMsoVE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <img className="logo-icon" alt="Qries" src={resume_icon} />
                     </a>
                 </div>
