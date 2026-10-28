@@ -1,25 +1,25 @@
 {
-  "main.css": "./static/css/main.c9695c5d.chunk.css",
-  "main.js": "./static/js/main.98de6d94.chunk.js",
-  "main.js.map": "./static/js/main.98de6d94.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.00bc0910.js",
-  "runtime~main.js.map": "./static/js/runtime~main.00bc0910.js.map",
-  "static/js/2.d20b7e0b.chunk.js": "./static/js/2.d20b7e0b.chunk.js",
-  "static/js/2.d20b7e0b.chunk.js.map": "./static/js/2.d20b7e0b.chunk.js.map",
-  "static/js/3.4ea34601.chunk.js": "./static/js/3.4ea34601.chunk.js",
-  "static/js/3.4ea34601.chunk.js.map": "./static/js/3.4ea34601.chunk.js.map",
-  "index.html": "./index.html",
-  "precache-manifest.220ad1f459b40cc57e209be500ff8c67.js": "./precache-manifest.220ad1f459b40cc57e209be500ff8c67.js",
-  "service-worker.js": "./service-worker.js",
-  "static/css/main.c9695c5d.chunk.css.map": "./static/css/main.c9695c5d.chunk.css.map",
-  "static/media/App.css": "./static/media/Orange Days.ef1fb2c0.ttf",
-  "static/media/discord_icon.png": "./static/media/discord_icon.6fafae42.png",
-  "static/media/greenarchbackground.png": "./static/media/greenarchbackground.6d9315b2.png",
-  "static/media/httpserver_icon.png": "./static/media/httpserver_icon.00f1b4af.png",
-  "static/media/httpserverdemo.mp4": "./static/media/httpserverdemo.9eb0f1b2.mp4",
-  "static/media/huffmandemo.mp4": "./static/media/huffmandemo.c3f30a69.mp4",
-  "static/media/huffmantree.png": "./static/media/huffmantree.1af203e2.png",
-  "static/media/spacearchbackground.png": "./static/media/spacearchbackground.122825ee.png",
-  "static/media/webcrawler_icon.png": "./static/media/webcrawler_icon.571e45c2.png",
-  "static/media/webcrawlerbotdemo.mp4": "./static/media/webcrawlerbotdemo.affc6a6b.mp4"
+  "files": {
+    "main.css": "./static/css/main.3324dee8.css",
+    "main.js": "./static/js/main.7df8c1e1.js",
+    "static/js/453.0b72f93f.chunk.js": "./static/js/453.0b72f93f.chunk.js",
+    "static/media/huffmandemo.mp4": "./static/media/huffmandemo.be7aa6a3e1bfc06b9bc0.mp4",
+    "static/media/httpserverdemo.mp4": "./static/media/httpserverdemo.bbe46f5f567d81cc77c0.mp4",
+    "static/media/webcrawlerbotdemo.mp4": "./static/media/webcrawlerbotdemo.5803294d49677339eab4.mp4",
+    "static/media/spacearchbackground.png": "./static/media/spacearchbackground.de8fd28d76993a9f74f5.png",
+    "static/media/greenarchbackground.png": "./static/media/greenarchbackground.a7d0c93d787cb6c15066.png",
+    "static/media/huffmantree.png": "./static/media/huffmantree.74feb2710c797775af99.png",
+    "static/media/Orange Days.ttf": "./static/media/Orange Days.2d2e7ac32e9657ffa51b.ttf",
+    "static/media/httpserver_icon.png": "./static/media/httpserver_icon.6ca72935cfad06813a15.png",
+    "static/media/webcrawler_icon.png": "./static/media/webcrawler_icon.a0faa1bacb8564846094.png",
+    "static/media/discord_icon.png": "./static/media/discord_icon.d7f7fca1a3c52fa3d56c.png",
+    "index.html": "./index.html",
+    "main.3324dee8.css.map": "./static/css/main.3324dee8.css.map",
+    "main.7df8c1e1.js.map": "./static/js/main.7df8c1e1.js.map",
+    "453.0b72f93f.chunk.js.map": "./static/js/453.0b72f93f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3324dee8.css",
+    "static/js/main.7df8c1e1.js"
+  ]
 }
