@@ -10,6 +10,7 @@ import Cryptography from './Huffman';
 import Httpserver from './Httpserver';
 import Webscrawler from './Webscraper';
 import Archsetup from './Archsetup';
+import AtlassianDbMirror from './docs/atlassian_db_mirror';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/httpserver' element={<Httpserver />} />
         <Route path='/webcrawler' element={<Webscrawler />} />
         <Route path='/archsetup' element={<Archsetup />} />
+        <Route path='/docs/atlassian_db_mirror' element={<AtlassianDbMirror />} />
       </Routes>
     </Router>
   );

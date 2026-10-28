@@ -1,0 +1,191 @@
+/* DB Mirror for Jira documentation */
+.dbmirror-doc {
+  --ink: #10293a;
+  --mint: #46ddb9;
+  --mint-soft: #e3f8f2;
+  --bg: #ffffff;
+  --surface: #f5f7f8;
+  --text: #17222b;
+  --muted: #4b5a66;
+  --line: #dde3e7;
+  --link: #0b6e57;
+  --code-bg: #f0f3f5;
+  --note-bg: #eef7ff;
+  --note-line: #2f6fb3;
+  --warn-bg: #fff6e6;
+  --warn-line: #b7791f;
+  --radius: 10px;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dbmirror-doc {
+    --bg: #0f1a22;
+    --surface: #15232d;
+    --text: #e6edf1;
+    --muted: #a3b2bd;
+    --line: #26394a;
+    --link: #6fe6c8;
+    --code-bg: #182a36;
+    --mint-soft: #133a33;
+    --note-bg: #12283b;
+    --note-line: #6ea8e6;
+    --warn-bg: #2e2412;
+    --warn-line: #e0a84a;
+  }
+}
+
+.dbmirror-doc * { box-sizing: border-box; }
+
+.dbmirror-doc [id] { scroll-margin-top: 80px; }
+
+.dbmirror-doc {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* App.css resets margin/padding on everything; restore list indentation */
+.dbmirror-doc ul, .dbmirror-doc ol { padding-left: 1.5em; }
+
+.dbmirror-doc a { color: var(--link); text-underline-offset: 2px; }
+.dbmirror-doc a:hover { text-decoration-thickness: 2px; }
+
+/* Header */
+.dbmirror-doc .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  background: var(--ink);
+  color: #fff;
+}
+.dbmirror-doc .site-header img, .dbmirror-doc .site-header svg { width: 36px; height: 36px; flex: none; }
+.dbmirror-doc .site-header .brand { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: #fff; text-decoration: none; }
+.dbmirror-doc .site-header .brand span { color: var(--mint); font-weight: 600; }
+.dbmirror-doc .site-header nav { margin-left: auto; display: flex; gap: 20px; flex-wrap: wrap; }
+.dbmirror-doc .site-header nav a { color: #cfe9e2; text-decoration: none; font-size: 14px; }
+.dbmirror-doc .site-header nav a:hover { color: #fff; }
+
+/* Layout */
+.dbmirror-doc .layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+.dbmirror-doc .toc {
+  flex: 1 1 220px;
+  max-width: 260px;
+  font-size: 14px;
+}
+.dbmirror-doc .toc-inner { position: sticky; top: 88px; }
+.dbmirror-doc .toc h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 8px; padding: 0; border: 0; }
+.dbmirror-doc .toc ol { list-style: none; margin: 0; padding: 0; }
+.dbmirror-doc .toc li { margin: 2px 0; }
+.dbmirror-doc .toc a { display: block; padding: 4px 10px; border-radius: 6px; color: var(--text); text-decoration: none; }
+.dbmirror-doc .toc a:hover { background: var(--surface); }
+.dbmirror-doc .toc ol ol { padding-left: 12px; }
+.dbmirror-doc .toc ol ol a { color: var(--muted); }
+
+.dbmirror-doc main { flex: 999 1 560px; min-width: 0; max-width: 820px; }
+
+@media (max-width: 860px) {
+  .dbmirror-doc .toc { max-width: none; flex-basis: 100%; }
+  .dbmirror-doc .toc-inner { position: static; border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+  .dbmirror-doc .site-header nav { display: none; }
+}
+
+/* Type */
+.dbmirror-doc h1 { font-size: 40px; line-height: 1.15; letter-spacing: -0.02em; margin: 8px 0 12px; }
+.dbmirror-doc h2 { font-size: 26px; line-height: 1.25; letter-spacing: -0.01em; margin: 56px 0 12px; padding-top: 8px; border-top: 1px solid var(--line); }
+.dbmirror-doc h3 { font-size: 19px; margin: 32px 0 8px; }
+.dbmirror-doc h4 { font-size: 16px; margin: 24px 0 6px; }
+.dbmirror-doc p, .dbmirror-doc ul, .dbmirror-doc ol, .dbmirror-doc table, .dbmirror-doc pre, .dbmirror-doc .callout { margin: 0 0 16px; }
+.dbmirror-doc li { margin: 4px 0; }
+.dbmirror-doc .lead { font-size: 19px; color: var(--muted); max-width: 40em; }
+
+/* Code */
+.dbmirror-doc code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--code-bg);
+  padding: 0.12em 0.36em;
+  border-radius: 5px;
+}
+.dbmirror-doc pre {
+  background: var(--code-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.dbmirror-doc pre code { background: none; padding: 0; font-size: inherit; }
+.dbmirror-doc pre .c { color: var(--muted); }
+
+/* Tables */
+.dbmirror-doc .table-wrap { overflow-x: auto; margin: 0 0 16px; }
+.dbmirror-doc table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.dbmirror-doc th, .dbmirror-doc td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--line); }
+.dbmirror-doc th { font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
+.dbmirror-doc td code { white-space: nowrap; }
+
+/* Callouts */
+.dbmirror-doc .callout { border-left: 4px solid var(--note-line); background: var(--note-bg); padding: 12px 16px; border-radius: 0 var(--radius) var(--radius) 0; }
+.dbmirror-doc .callout.warn { border-left-color: var(--warn-line); background: var(--warn-bg); }
+.dbmirror-doc .callout p:last-child, .dbmirror-doc .callout ul:last-child { margin-bottom: 0; }
+.dbmirror-doc .callout strong:first-child { display: block; margin-bottom: 2px; }
+
+/* Flow diagram */
+.dbmirror-doc .flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 6px;
+  margin: 8px 0 20px;
+}
+.dbmirror-doc .flow .step {
+  flex: 1 1 104px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+.dbmirror-doc .flow .step b { display: block; font-size: 15px; margin-bottom: 2px; }
+.dbmirror-doc .flow .step.yours { background: var(--mint-soft); border-color: var(--mint); }
+.dbmirror-doc .flow .arrow { align-self: center; color: var(--muted); font-size: 18px; flex: none; }
+@media (max-width: 640px) { .dbmirror-doc .flow .arrow { display: none; } }
+
+/* Steps */
+.dbmirror-doc .steps { counter-reset: s; list-style: none; padding: 0; }
+.dbmirror-doc .steps > li { counter-increment: s; position: relative; padding-left: 44px; margin: 14px 0; }
+.dbmirror-doc .steps > li::before {
+  content: counter(s);
+  position: absolute; left: 0; top: 0;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: var(--ink); color: #fff;
+  font-weight: 700; font-size: 14px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.dbmirror-doc footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+  padding: 24px;
+  text-align: center;
+}
